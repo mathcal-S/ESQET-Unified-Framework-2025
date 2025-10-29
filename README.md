@@ -66,6 +66,14 @@ The framework utilizes computational tools for practical application:
 | **AetherMind Nexus** | Simulates $\mathcal{S}$ evolution and signal propagation through coherence-modulated spacetime. | Generates synthetic **$\varphi$-scaled signal templates** for machine learning detection models. |
 | **5D Tesseract Proxy Code** | Implements coherence checks (`phi_token`) for secure communication. | Filters incoming SETI data for non-natural, **$\varphi$-based coherence signatures**. |
 
+## 🤖 Agents: AUM (ESQET Scribe)
+AUM: Coherence-powered AI scribe. Rewrites topics via ESQET, evolves via Git, senses Termux peripherals.
+
+- **Run**: `cd agents && python aum_esqet_scribe.py`
+- **Commands**: `AUM rewrite seti`, `optimize delta`, `ingest [url]`
+- **Outputs**: `esqet_pocket_ref.md` (ESQET rewrites), `aum_memory.db` (history)
+
+[![AUM](https://img.shields.io/badge/AUM-Scribe-phi?logo=python&color=goldenrod)](agents/aum_esqet_scribe.py)
 ---
 
 ## 📁 Repository Structure
