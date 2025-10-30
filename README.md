@@ -66,6 +66,7 @@ The framework utilizes computational tools for practical application:
 | **AetherMind Nexus** | Simulates $\mathcal{S}$ evolution and signal propagation through coherence-modulated spacetime. | Generates synthetic **$\varphi$-scaled signal templates** for machine learning detection models. |
 | **5D Tesseract Proxy Code** | Implements coherence checks (`phi_token`) for secure communication. | Filters incoming SETI data for non-natural, **$\varphi$-based coherence signatures**. |
 
+<<<<<<< HEAD
 ## 🤖 Agents: AUM (ESQET Scribe)
 AUM: Coherence-powered AI scribe. Rewrites topics via ESQET, evolves via Git, senses Termux peripherals.
 
@@ -74,11 +75,29 @@ AUM: Coherence-powered AI scribe. Rewrites topics via ESQET, evolves via Git, se
 - **Outputs**: `esqet_pocket_ref.md` (ESQET rewrites), `aum_memory.db` (history)
 
 [![AUM](https://img.shields.io/badge/AUM-Scribe-phi?logo=python&color=goldenrod)](agents/aum_esqet_scribe.py)
+=======
+>>>>>>> eb6f344 (Save local changes before syncing with remote)
 ---
 
 ## 📁 Repository Structure
 
 The project is organized into theoretical, computational, and application layers:
+<<<<<<< HEAD
+=======
+
+* `chapters/`: LaTeX source files for the dissertation chapters.
+* `simulations/`: Python/SymPy/Qiskit code for symbolic derivations and VQE validation.
+* `outreach/`: Drafts and strategies for contacting NASA/JPL, SETI, and Elon Musk.
+* `References.bib`: The bibliography file.
+
+---
+
+## 🛰️ Outreach Goals (Propulsion & Funding)
+
+* **Propulsion Pitch**: ESQET's coherence mechanisms offer a theoretical basis for **propellantless propulsion** by engineering asymmetric spacetime curvature, aligning with the NASA NIAC program.
+* **Crowdfunding**: Research is supported by community contributions via NFTs. **$5 Matic support** funds independent research and keeps the momentum going.
+* **Targeted Outreach**: Direct communication with SETI Institute (for signal analysis collaboration), NASA/JPL (for propulsion/astrobiology), and Elon Musk (for visionary propulsion and funding).
+>>>>>>> eb6f344 (Save local changes before syncing with remote)
 
 * `chapters/`: LaTeX source files for the dissertation chapters.
 * `simulations/`: Python/SymPy/Qiskit code for symbolic derivations and VQE validation.
