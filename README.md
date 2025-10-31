@@ -1,3 +1,6 @@
+# 1. Create a temporary file (esqet_draft.md) with the final content.
+# The 'EOF' markers ensure all special characters and formatting are preserved.
+cat << 'EOF' > esqet_draft.md
 # ESQET-Unified-Framework-2025
 
 # The Emergent Spacetime Quantum-Coherence Theory (ESQET)
@@ -13,7 +16,7 @@ A theoretical framework for a unified theory of everything, positing that gravit
 ESQET proposes a novel extension to General Relativity where the geometry of spacetime is linked to the quantum-coherent state of matter and vacuum.
 
 * **Spacetime as a Scalar Information Field ($\mathcal{S}$):** Gravity emerges from perturbations within a dynamic, dimensionless information field.
-* **Golden Gravity:** The principle that fundamental coherence is scaled by **Fibonacci harmonics**, quantified by the Fibonacci Coherence Unit (FCU).
+* **Golden Gravity:** The principle that fundamental coherence is scaled by **Fibonacci harmonics**, quantified by the **Fibonacci Coherence Unit (FCU)**.
 * **Propulsion & SETI:** ESQET predicts the feasibility of **propellantless propulsion** via coherence modulation and enhances SETI signal detection by predicting **$\varphi$-scaled signatures** in extraterrestrial communications.
 
 ---
@@ -66,24 +69,20 @@ The framework utilizes computational tools for practical application:
 | **AetherMind Nexus** | Simulates $\mathcal{S}$ evolution and signal propagation through coherence-modulated spacetime. | Generates synthetic **$\varphi$-scaled signal templates** for machine learning detection models. |
 | **5D Tesseract Proxy Code** | Implements coherence checks (`phi_token`) for secure communication. | Filters incoming SETI data for non-natural, **$\varphi$-based coherence signatures**. |
 
-<<<<<<< HEAD
 ## 🤖 Agents: AUM (ESQET Scribe)
+
 AUM: Coherence-powered AI scribe. Rewrites topics via ESQET, evolves via Git, senses Termux peripherals.
 
-- **Run**: `cd agents && python aum_esqet_scribe.py`
-- **Commands**: `AUM rewrite seti`, `optimize delta`, `ingest [url]`
-- **Outputs**: `esqet_pocket_ref.md` (ESQET rewrites), `aum_memory.db` (history)
+-   **Run**: `cd agents && python aum_esqet_scribe.py`
+-   **Commands**: `AUM rewrite seti`, `optimize delta`, `ingest [url]`
+-   **Outputs**: `esqet_pocket_ref.md` (ESQET rewrites), `aum_memory.db` (history)
 
 [![AUM](https://img.shields.io/badge/AUM-Scribe-phi?logo=python&color=goldenrod)](agents/aum_esqet_scribe.py)
-=======
->>>>>>> eb6f344 (Save local changes before syncing with remote)
 ---
 
 ## 📁 Repository Structure
 
 The project is organized into theoretical, computational, and application layers:
-<<<<<<< HEAD
-=======
 
 * `chapters/`: LaTeX source files for the dissertation chapters.
 * `simulations/`: Python/SymPy/Qiskit code for symbolic derivations and VQE validation.
@@ -95,19 +94,16 @@ The project is organized into theoretical, computational, and application layers
 ## 🛰️ Outreach Goals (Propulsion & Funding)
 
 * **Propulsion Pitch**: ESQET's coherence mechanisms offer a theoretical basis for **propellantless propulsion** by engineering asymmetric spacetime curvature, aligning with the NASA NIAC program.
-* **Crowdfunding**: Research is supported by community contributions via NFTs. **$5 Matic support** funds independent research and keeps the momentum going.
+* **Crowdfunding**: Research is supported by community contributions via NFTs. We seek the **$\mathbf{\varphi}$-Tribute Tier** of support, where a contribution equivalent to $\mathbf{1.618 \text{ Matic}}$ directly funds independent research, accelerating the path to experimental validation.
 * **Targeted Outreach**: Direct communication with SETI Institute (for signal analysis collaboration), NASA/JPL (for propulsion/astrobiology), and Elon Musk (for visionary propulsion and funding).
->>>>>>> eb6f344 (Save local changes before syncing with remote)
+EOF
 
-* `chapters/`: LaTeX source files for the dissertation chapters.
-* `simulations/`: Python/SymPy/Qiskit code for symbolic derivations and VQE validation.
-* `outreach/`: Drafts and strategies for contacting NASA/JPL, SETI, and Elon Musk.
-* `References.bib`: The bibliography file.
+# 2. Use 'fold' to wrap long lines at 80 characters for terminal elegance.
+fold -s -w 80 esqet_draft.md > README_temp.md
 
----
+# 3. Use 'sed' to ensure consistent blank lines/separators before headings (structural elegance).
+sed 's/^#\{1,3\}/ \n&/' README_temp.md > README.md
 
-## 🛰️ Outreach Goals (Propulsion & Funding)
+# 4. Clean up temporary files.
+rm esqet_draft.md README_temp.md
 
-* **Propulsion Pitch**: ESQET's coherence mechanisms offer a theoretical basis for **propellantless propulsion** by engineering asymmetric spacetime curvature, aligning with the NASA NIAC program.
-* **Crowdfunding**: Research is supported by community contributions via NFTs. **$5 Matic support** funds independent research and keeps the momentum going.
-* **Targeted Outreach**: Direct communication with SETI Institute (for signal analysis collaboration), NASA/JPL (for propulsion/astrobiology), and Elon Musk (for visionary propulsion and funding).
