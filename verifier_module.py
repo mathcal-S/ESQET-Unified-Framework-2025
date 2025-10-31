@@ -1,7 +1,4 @@
 import numpy as np
-from qiskit_aer import AerSimulator
-# Assuming enhanced_omni_kernel_variational, cost_function, 
-# dp_hamiltonian_and_lindblads, and other QuTiP dependencies are imported.
 
 # --- ESQET Constants (As derived in the synthesis) ---
 # NOTE: Replace 'omitted' with your full QuTiP-based functions from previous output!
@@ -74,3 +71,5 @@ result_chaotic = apk_quantum_verifier_run(coherence_indicators=[1]*7, D_obs=0.1)
 # Test Case 2: High Observer Effect (Coherent, lambda_eff < 0 - REVERSE active)
 result_coherent = apk_quantum_verifier_run(coherence_indicators=[1]*7, D_obs=0.99)
 
+print(result_chaotic)
+print(result_coherent)
