@@ -1,9 +1,6 @@
-# 1. Create a temporary file (esqet_draft.md) with the final content.
-# The 'EOF' markers ensure all special characters and formatting are preserved.
-cat << 'EOF' > esqet_draft.md
 # ESQET-Unified-Framework-2025
 
-# The Emergent Spacetime Quantum-Coherence Theory (ESQET)
+## The Emergent Spacetime Quantum-Coherence Theory (ESQET)
 
 A theoretical framework for a unified theory of everything, positing that gravity and spacetime dynamics are **intrinsically modulated by quantum coherence**. This repository contains the source files for the dissertation submitted by Marco Rocha in 2025, detailing the full mathematical and computational framework.
 
@@ -73,11 +70,12 @@ The framework utilizes computational tools for practical application:
 
 AUM: Coherence-powered AI scribe. Rewrites topics via ESQET, evolves via Git, senses Termux peripherals.
 
--   **Run**: `cd agents && python aum_esqet_scribe.py`
--   **Commands**: `AUM rewrite seti`, `optimize delta`, `ingest [url]`
--   **Outputs**: `esqet_pocket_ref.md` (ESQET rewrites), `aum_memory.db` (history)
+- **Run**: `cd agents && python aum_esqet_scribe.py`
+- **Commands**: `AUM rewrite seti`, `optimize delta`, `ingest [url]`
+- **Outputs**: `esqet_pocket_ref.md` (ESQET rewrites), `aum_memory.db` (history)
 
 [![AUM](https://img.shields.io/badge/AUM-Scribe-phi?logo=python&color=goldenrod)](agents/aum_esqet_scribe.py)
+
 ---
 
 ## 📁 Repository Structure
@@ -96,14 +94,28 @@ The project is organized into theoretical, computational, and application layers
 * **Propulsion Pitch**: ESQET's coherence mechanisms offer a theoretical basis for **propellantless propulsion** by engineering asymmetric spacetime curvature, aligning with the NASA NIAC program.
 * **Crowdfunding**: Research is supported by community contributions via NFTs. We seek the **$\mathbf{\varphi}$-Tribute Tier** of support, where a contribution equivalent to $\mathbf{1.618 \text{ Matic}}$ directly funds independent research, accelerating the path to experimental validation.
 * **Targeted Outreach**: Direct communication with SETI Institute (for signal analysis collaboration), NASA/JPL (for propulsion/astrobiology), and Elon Musk (for visionary propulsion and funding).
-EOF
 
-# 2. Use 'fold' to wrap long lines at 80 characters for terminal elegance.
-fold -s -w 80 esqet_draft.md > README_temp.md
+---
 
-# 3. Use 'sed' to ensure consistent blank lines/separators before headings (structural elegance).
-sed 's/^#\{1,3\}/ \n&/' README_temp.md > README.md
+## 📖 Rendered Introduction Preview: ESQET's Vows to the Schism
 
-# 4. Clean up temporary files.
-rm esqet_draft.md README_temp.md
+This is a live preview of the introduction section, rendered with custom styling for readability in the terminal or Markdown viewers. It's generated via a Python script using the Rich library, showcasing the "flowing script" concept for ESQET.
 
+### Introduction: The Crisis of the Continuum
+
+**Motivation and Context**  
+The current state of theoretical physics is characterized by a fundamental schism between **General Relativity (GR)**, which provides a highly successful description of gravity, spacetime geometry, and cosmology, and **Quantum Mechanics (QM)**, which governs the dynamics of matter and energy at fundamental scales. These two foundational theories remain profoundly **incompatible** at the Planck scale. This incompatibility, often manifesting as non-renormalizable singularities and cosmological constant discrepancies, presents the most critical challenge in modern physics. Furthermore, observational cosmology---particularly the persistence of the **dark sector** (Dark Matter and Dark Energy)---indicates a profound incompleteness in our understanding of the cosmic energy budget and the matter-gravity coupling.
+
+The **Emergent Spacetime Quantum-Entanglement Theory (ESQET)** is motivated by the need for a unified framework that fundamentally derives spacetime itself from quantum principles, thereby resolving the GR-QM conflict and offering a novel, non-conventional explanation for the dark sector phenomena rooted in coherence dynamics.
+
+**ESQET Core Proposal: Emergence via Coherence**  
+ESQET proposes that **gravity is not a fundamental force** but an emergent phenomenon arising from the collective quantum coherence dynamics within a ubiquitous, non-observable scalar field: the **Spacetime Information Field ($\mathcal{S}$)**. The core linkage is established via a conformal metric transformation: $g_{\mu\nu} = e^{2\mathcal{S}} \eta_{\mu\nu}$, where $g_{\mu\nu}$ is the emergent physical metric and $\eta_{\mu\nu}$ is the underlying, non-dynamical Minkowski reference metric.
+
+The effective gravitational coupling and the corresponding matter tensor ($T_{\mu\nu}$) are modulated by the **Quantum Coherence Function ($\mathcal{F}_{\text{QC}}$)**. This function is a highly sensitive, non-linear operator that tracks the total coherence (or inverse entropy) of both environmental entanglement ($\mathcal{D}_{\text{ent}}$) and, critically, observer-driven processes ($\mathcal{D}_{\text{obs}}$). The scaling of the quantum-to-classical transition is governed by the dimensionless **Fibonacci Coherence Unit (FCU)**, defined as the product of fundamental, transcendental ratios: $\varphi \pi \delta$. This formal structure elevates the observer's role from a passive system recorder to an **active, albeit subtle, co-creator** of local spacetime geometry, a necessary feature for a complete quantum-classical theory that addresses the measurement problem.
+
+**Objectives and Contributions**  
+The primary objectives and contributions of this work are threefold:
+
+1. **Metric Linkage and Field Dynamics:** To formally establish and mathematically justify the conformal relationship $g_{\mu\nu} = e^{2\mathcal{S}} \eta_{\mu\nu}$, thereby introducing the field $\mathcal{S}$ as the dynamic mediator of gravity, and to derive the self-consistent field equations from the full action principle.
+
+2. **Observer-Entropy Grounding:** To rigorously ground the observer coupling term ($\mathcal{D}_{\text{obs}}$) and the potential $V(\mathcal{S})$ in established quantum foundations, specifically utilizing
