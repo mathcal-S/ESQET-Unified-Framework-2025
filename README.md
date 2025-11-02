@@ -94,6 +94,7 @@ The project is organized into theoretical, computational, and application layers
 * **Propulsion Pitch**: ESQET's coherence mechanisms offer a theoretical basis for **propellantless propulsion** by engineering asymmetric spacetime curvature, aligning with the NASA NIAC program.
 * **Crowdfunding**: Research is supported by community contributions via NFTs. We seek the **$\mathbf{\varphi}$-Tribute Tier** of support, where a contribution equivalent to $\mathbf{1.618 \text{ Matic}}$ directly funds independent research, accelerating the path to experimental validation.
 * **Targeted Outreach**: Direct communication with SETI Institute (for signal analysis collaboration), NASA/JPL (for propulsion/astrobiology), and Elon Musk (for visionary propulsion and funding).
+MetaMask public address: 0xdcb2713613f8ac07637bb306ea8209038c614f3d
 
 ---
 
