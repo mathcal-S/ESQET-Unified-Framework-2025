@@ -1,13 +1,3 @@
-# ESQET-Unified-Framework-2025
-
-## The Emergent Spacetime Quantum-Coherence Theory (ESQET)
-
-A theoretical framework for a unified theory of everything, positing that gravity and spacetime dynamics are **intrinsically modulated by quantum coherence**. This repository contains the source files for the dissertation submitted by Marco Rocha in 2025, detailing the full mathematical and computational framework.
-
-**Repository Link:** [https://github.com/mathcal-S/ESQET-Unified-Framework-2025](https://github.com/mathcal-S/ESQET-Unified-Framework-2025)
-
----
-
 ## 🌟 Core Principles (ESQET v3.1)
 
 ESQET proposes a novel extension to General Relativity where the geometry of spacetime is linked to the quantum-coherent state of matter and vacuum.
@@ -420,3 +410,6 @@ The primary objectives and contributions of this work are threefold:
 1. **Metric Linkage and Field Dynamics:** To formally establish and mathematically justify the conformal relationship $g_{\mu\nu} = e^{2\mathcal{S}} \eta_{\mu\nu}$, thereby introducing the field $\mathcal{S}$ as the dynamic mediator of gravity, and to derive the self-consistent field equations from the full action principle.
 
 2. **Observer-Entropy Grounding:** To rigorously ground the observer coupling term ($\mathcal{D}_{\text{obs}}$) and the potential $V(\mathcal{S})$ in established quantum foundations, specifically utilizing
+=======
+For arXiv: tar -czf submission.tar.gz chapters/ simulations/ README.md LICENSE
+>>>>>>> cb7e8ff (Clean v3.2: Organized sims/figs/data; fixed GHZ noise.)

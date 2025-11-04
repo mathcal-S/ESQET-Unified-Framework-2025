@@ -1,0 +1,38 @@
+{
+    "timestamp": "2025-11-03T18:19:16Z",
+    "checks": {
+        "python_version": {
+            "status": "PASS",
+            "details": "Python sys.version_info(major=3, minor=12, micro=12, releaselevel='final', serial=0) is compatible."
+        },
+        "packages": {
+            "status": "PASS",
+            "details": {
+                "qiskit": "Installed and importable.",
+                "qiskit-algorithms": "Installed and importable.",
+                "qiskit-ibm-runtime": "Installed and importable.",
+                "numpy": "Installed and importable.",
+                "scipy": "Installed and importable."
+            },
+            "missing": []
+        },
+        "environment_variables": {
+            "status": "FAIL",
+            "details": {
+                "IBM_TOKEN": "Not set or empty. Set via 'export IBM_TOKEN=your_token_here'."
+            },
+            "missing": [
+                "IBM_TOKEN"
+            ]
+        },
+        "qiskit_runtime_access": {
+            "status": "FAIL",
+            "details": "\u274c Runtime service failed: 'channel' can only be 'ibm_cloud', or 'ibm_quantum_platform. Verify IBM_TOKEN and account status."
+        }
+    },
+    "overall_status": "FAIL",
+    "recommendations": [
+        "Set missing env vars: IBM_TOKEN",
+        "\u274c Runtime service failed: 'channel' can only be 'ibm_cloud', or 'ibm_quantum_platform. Verify IBM_TOKEN and account status."
+    ]
+}

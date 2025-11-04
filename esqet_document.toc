@@ -1,7 +1,0 @@
-\contentsline {section}{\numberline {1}Introduction}{2}{}%
-\contentsline {subsection}{\numberline {1.1}Motivation and Context}{2}{}%
-\contentsline {subsection}{\numberline {1.2}ESQET Core Proposal}{2}{}%
-\contentsline {subsection}{\numberline {1.3}Objectives and Contributions}{2}{}%
-\contentsline {section}{\numberline {2}Mathematical Framework}{3}{}%
-\contentsline {subsection}{\numberline {2.1}ESQET Field Equations}{3}{}%
-\contentsline {subsubsection}{\numberline {2.1.1}Quantum Coherence Function ($\mathcal {F}{\text {QC}}$)}{3}{}%

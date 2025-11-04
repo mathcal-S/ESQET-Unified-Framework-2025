@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025/Termux) (preloaded format=pdflatex 2025.10.28)  30 OCT 2025 23:10
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025/Termux) (preloaded format=pdflatex 2025.10.28)  1 NOV 2025 17:12
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -12,8 +12,8 @@ rticle.cls
 Document Class: article 2025/01/22 v1.4n Standard LaTeX document class
 
 (/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/latex/base/s
-ize10.clo
-File: size10.clo 2025/01/22 v1.4n Standard LaTeX file (size option)
+ize11.clo
+File: size11.clo 2025/01/22 v1.4n Standard LaTeX file (size option)
 )
 \c@part=\count275
 \c@section=\count276
@@ -203,20 +203,20 @@ File: l3backend-pdftex.def 2025-10-09 L3 backend support: PDF output (pdfTeX)
 ) (./esqet_document.aux)
 \openout1 = `esqet_document.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 3.
-LaTeX Font Info:    ... okay on input line 3.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 3.
-LaTeX Font Info:    ... okay on input line 3.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 3.
-LaTeX Font Info:    ... okay on input line 3.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 3.
-LaTeX Font Info:    ... okay on input line 3.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 3.
-LaTeX Font Info:    ... okay on input line 3.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 3.
-LaTeX Font Info:    ... okay on input line 3.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 3.
-LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -235,14 +235,14 @@ LaTeX Font Info:    ... okay on input line 3.
 * \oddsidemargin=-15.36449pt
 * \evensidemargin=-15.36449pt
 * \topmargin=-52.36449pt
-* \headheight=12.0pt
+* \headheight=13.6pt
 * \headsep=25.0pt
-* \topskip=10.0pt
+* \topskip=11.0pt
 * \footskip=30.0pt
-* \marginparwidth=65.0pt
-* \marginparsep=11.0pt
+* \marginparwidth=50.0pt
+* \marginparsep=10.0pt
 * \columnsep=10.0pt
-* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
 * \hoffset=0.0pt
 * \voffset=0.0pt
 * \mag=1000
@@ -253,13 +253,15 @@ LaTeX Font Info:    ... okay on input line 3.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 \c@lstlisting=\count307
-LaTeX Font Info:    Trying to load font information for U+msa on input line 4.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 32.
+
 
 (/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/latex/amsfon
 ts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 4.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 32.
+
 
 (/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/latex/amsfon
 ts/umsb.fd
@@ -275,53 +277,71 @@ x/updmap/pdftex.map}
 
 ]
 
-[2]
+[2{/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/fonts/enc/dvip
+s/cm-super/cm-super-ts1.enc}]
 
-[3] (./esqet_document.aux)
+[3]
+
+[4]
+
+[5]
+
+[6]
+Overfull \hbox (3.97295pt too wide) in paragraph at lines 176--177
+\OT1/cmr/m/n/10.95 The Emer-gent Space-time Quantum-Entanglement The-ory (ES-QE
+T) pro-vides a rig-or-ous, self-consistent,
+ []
+
+
+
+[7]
+
+[8]
+
+[9] (./esqet_document.aux)
  ***********
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-10-24>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 4050 strings out of 467747
- 60943 string characters out of 5412873
- 466850 words of memory out of 5000000
- 32738 multiletter control sequences out of 15000+600000
- 638363 words of font info for 81 fonts, out of 8000000 for 9000
+ 4064 strings out of 467747
+ 61308 string characters out of 5412873
+ 473847 words of memory out of 5000000
+ 32754 multiletter control sequences out of 15000+600000
+ 639055 words of font info for 83 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,11n,65p,665b,310s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 57i,12n,65p,914b,310s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/fonts/type1/pu
 blic/amsfonts/cm/cmbx10.pfb></data/data/com.termux/files/usr/share/texlive/2025
 /texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></data/data/com.termux/fi
-les/usr/share/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb>
+les/usr/share/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb>
 </data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/fonts/type1/publ
 ic/amsfonts/cm/cmex10.pfb></data/data/com.termux/files/usr/share/texlive/2025/t
 exmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></data/data/com.termux/file
-s/usr/share/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></
-data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmmi6.pfb></data/data/com.termux/files/usr/share/texlive/2025/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></data/data/com.termux/files/us
-r/share/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></data
-/data/com.termux/files/usr/share/texlive/2025/texmf-dist/fonts/type1/public/ams
-fonts/cm/cmr10.pfb></data/data/com.termux/files/usr/share/texlive/2025/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmr12.pfb></data/data/com.termux/files/usr/sh
-are/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></data/data
+s/usr/share/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><
+/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmmi7.pfb></data/data/com.termux/files/usr/share/texlive/2025/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></data/data/com.termux/files/u
+sr/share/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></dat
+a/data/com.termux/files/usr/share/texlive/2025/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmr12.pfb></data/data/com.termux/files/usr/share/texlive/2025/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmr6.pfb></data/data/com.termux/files/usr/sh
+are/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></data/data
 /com.termux/files/usr/share/texlive/2025/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmr6.pfb></data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/fon
-ts/type1/public/amsfonts/cm/cmr7.pfb></data/data/com.termux/files/usr/share/tex
-live/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></data/data/com.te
-rmux/files/usr/share/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cms
-y10.pfb></data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/fonts/ty
-pe1/public/amsfonts/cm/cmsy6.pfb></data/data/com.termux/files/usr/share/texlive
-/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></data/data/com.termu
-x/files/usr/share/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.
-pfb></data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/fonts/type1/
-public/amsfonts/symbols/msam10.pfb>
-Output written on esqet_document.pdf (3 pages, 214052 bytes).
+/cm/cmr8.pfb></data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmsy10.pfb></data/data/com.termux/files/usr/share/t
+exlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></data/data/com
+.termux/files/usr/share/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmsy8.pfb></data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmti10.pfb></data/data/com.termux/files/usr/share/texl
+ive/2025/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></data/data/
+com.termux/files/usr/share/texlive/2025/texmf-dist/fonts/type1/public/cm-super/
+sfrm1095.pfb>
+Output written on esqet_document.pdf (9 pages, 243653 bytes).
 PDF statistics:
- 114 PDF objects out of 1000 (max. 8388607)
- 68 compressed objects within 1 object stream
+ 130 PDF objects out of 1000 (max. 8388607)
+ 80 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

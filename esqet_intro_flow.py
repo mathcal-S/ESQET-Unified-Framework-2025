@@ -3,10 +3,11 @@ from rich.console import Console
 from rich.text import Text
 from rich.panel import Panel
 from rich import print as rprint
+import re
 
 console = Console()
 
-# Full Introduction LaTeX Text (Inserted & Cleaned - Raw Triple-Quoted, Matched & Escaped)
+# Full Introduction LaTeX Text (Inserted & Cleaned - Raw Triple-Quoted)
 intro_text = r"""
 \section{Introduction}
 
@@ -53,13 +54,15 @@ def render_flowing_intro():
             console.print("\n")  # Graceful Spacing
         elif line.startswith('\\subsection'):
             # Subsection Headers: Bold Blue, Underlined
-            styled = Text(line[11:].strip(), style="bold blue")
+            header_text = re.sub(r'\\subsection\{(.+)\}', r'\1', line).strip()
+            styled = Text(header_text, style="bold blue")
             console.print(styled)
             console.print("─" * 60)  # Golden Divider
         elif line.startswith('\\item') or line.startswith('    \\item'):
             # List Items: Italic Green
-            styled = Text(line[6:].strip(), style="italic green")
-            console.print(Text("  • ") + styled)  # Fix: Text("  • ") + styled (no str concat)
+            item_text = re.sub(r'\\item (.+)', r'\1', line).strip()
+            styled = Text(item_text, style="italic green")
+            console.print(Text("  • ") + styled)
         elif '$' in line or '\\' in line or 'Delta' in line or 'approx' in line:
             # Equations: Italic Cyan, Centered Panel
             line = line.replace('\\Delta', 'Δ').replace('\\nu', 'ν').replace('\\approx', '≈').replace('\\mathcal{S}', '𝒮').replace('\\text{obs}', 'obs').replace('\\text{ent}', 'ent').replace('\\text{vac}', 'vac').replace('\\text{total}', 'total').replace('\\text{dark}', 'dark')
