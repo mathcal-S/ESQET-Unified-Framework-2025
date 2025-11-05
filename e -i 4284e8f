@@ -1,0 +1,106 @@
+[33ma93d0f7[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m ESQET-UIFT v4.0: Final arXiv submission package (Unified Informational Framework)
+[33mddfcb8c[m Clean v3.2: Organized sims/figs/data; fixed GHZ noise.
+[33m4284e8f[m Update chapter7.tex
+[33m92d0da0[m Merge pull request #55 from mathcal-S/mathcal-S-patch-52-1
+[33m9c2f5fb[m Merge pull request #54 from mathcal-S/mathcal-S-patch-53
+[33md5ab3cf[m Update chapter5.tex
+[33m9350470[m Update chapter5.tex
+[33ma18dfb6[m Merge pull request #52 from mathcal-S/mathcal-S-patch-51
+[33md0c8b78[m Update chapter1.tex
+[33m051b251[m Merge pull request #51 from mathcal-S/mathcal-S-patch-50
+[33md71baba[m Update chapter2.tex
+[33m39d9611[m Merge pull request #50 from mathcal-S/mathcal-S-patch-49
+[33mc87f774[m Update chapter1.tex
+[33ma9bd657[m Merge pull request #49 from mathcal-S/mathcal-S-patch-48
+[33m1e377cc[m Update README.md
+[33m8cc3416[m Merge pull request #47 from mathcal-S/mathcal-S-patch-46
+[33mbad7d5b[m Merge pull request #48 from mathcal-S/mathcal-S-patch-47
+[33ma055f9b[m Update README.md
+[33m13e7d54[m Create ibm_vqe_esqet.py
+[33m0f6aa65[m Merge pull request #46 from mathcal-S/mathcal-S-patch-45
+[33m2c05bfd[m README.md
+[33mb7ef24a[m add
+[33m8f9a714[m Update verifier_module.py
+[33mb964810[m Final update: Elegant README.md formatting and ESQET v3.1 manifesto.
+[33m1c9a5a8[m Finalized ESQET document (v1.2) including formal S_vN -> S Observer Bridge and updated protocols.
+[33m713fc91[m Merge pull request #45 from mathcal-S/mathcal-S-patch-44
+[33m52c4f8b[m Update README.md
+[33m546274c[m Merge pull request #44 from mathcal-S/mathcal-S-patch-43
+[33mc9ef408[m Create aum_esqet_scribe.py
+[33m3275a9f[m Merge pull request #42 from mathcal-S/mathcal-S-patch-41
+[33mb343b26[m Update chapter3.tex
+[33m753fb1a[m Merge pull request #39 from mathcal-S/mathcal-S-patch-38
+[33m4eac803[m Create quantum_acoustic_kernel.py
+[33mf896021[m Merge pull request #38 from mathcal-S/mathcal-S-patch-36
+[33m20e8d3e[m Merge pull request #37 from mathcal-S/mathcal-S-patch-37
+[33m2a61599[m Update chapter2.tex
+[33mb2e162f[m Update chapter2.tex
+[33m842c908[m Merge pull request #36 from mathcal-S/mathcal-S-patch-35
+[33m0c93b7e[m Update nanite_assembly_protocol.py
+[33mf38267d[m Merge pull request #35 from mathcal-S/mathcal-S-patch-34
+[33m09f11e8[m Create nanite_assembly_protocol.py
+[33ma554946[m Merge pull request #34 from mathcal-S/mathcal-S-patch-33
+[33m592ffe8[m[33m ([m[1;31morigin/mathcal-S-patch-33[m[33m)[m Update README.md
+[33mbd8fe95[m Merge pull request #33 from mathcal-S/mathcal-S-patch-32
+[33m9034033[m[33m ([m[1;31morigin/mathcal-S-patch-32[m[33m)[m Create sympy_esqet_solver.py
+[33m91cede0[m Merge pull request #32 from mathcal-S/mathcal-S-patch-31
+[33ma83e811[m[33m ([m[1;31morigin/mathcal-S-patch-31[m[33m)[m Update README.md
+[33m584bba9[m Merge pull request #31 from mathcal-S/mathcal-S-patch-30
+[33m81e126b[m[33m ([m[1;31morigin/mathcal-S-patch-30[m[33m)[m Update chapter7.tex
+[33mb445e28[m Merge pull request #30 from mathcal-S/mathcal-S-patch-29
+[33md0c28a5[m[33m ([m[1;31morigin/mathcal-S-patch-29[m[33m)[m Update chapter6.tex
+[33m6a3ef83[m Merge pull request #29 from mathcal-S/mathcal-S-patch-28
+[33m04384fc[m[33m ([m[1;31morigin/mathcal-S-patch-28[m[33m)[m Update chapter5.tex
+[33mb198296[m Merge pull request #28 from mathcal-S/mathcal-S-patch-27
+[33m26dac48[m[33m ([m[1;31morigin/mathcal-S-patch-27[m[33m)[m Update chapter4.tex
+[33mcc440b1[m Merge pull request #27 from mathcal-S/mathcal-S-patch-26
+[33mdc2d60c[m[33m ([m[1;31morigin/mathcal-S-patch-26[m[33m)[m Update chapter3.tex
+[33m2efba11[m Merge pull request #26 from mathcal-S/mathcal-S-patch-25
+[33me53aa59[m[33m ([m[1;31morigin/mathcal-S-patch-25[m[33m)[m Update chapter2.tex
+[33m96ab9f3[m Merge pull request #25 from mathcal-S/mathcal-S-patch-24
+[33m67d34be[m[33m ([m[1;31morigin/mathcal-S-patch-24[m[33m)[m Update chapter1.tex
+[33m5c3322c[m Merge branch 'main' of github.com:mathcal-S/ESQET-Unified-Framework-2025 Integrated upstream changes to sync local repo with remote.Merge branch 'main' of github.com:mathcal-S/ESQET-Unified-Framework-2025
+[33mb97b4ba[m Test commit
+[33m1bbe3fe[m Merge pull request #23 from mathcal-S/mathcal-S-patch-22
+[33mdcc11cd[m[33m ([m[1;31morigin/mathcal-S-patch-22[m[33m)[m Create main.tex
+[33m8a76b87[m Merge pull request #20 from mathcal-S/mathcal-S-patch-19
+[33mfa12ea4[m[33m ([m[1;31morigin/mathcal-S-patch-19[m[33m)[m Create appendices.tex
+[33m579f965[m Merge pull request #19 from mathcal-S/mathcal-S-patch-18
+[33m2d6af3c[m[33m ([m[1;31morigin/mathcal-S-patch-18[m[33m)[m Create chapter7.tex
+[33mc74bc52[m Merge pull request #18 from mathcal-S/mathcal-S-patch-17
+[33ma8cfa41[m[33m ([m[1;31morigin/mathcal-S-patch-17[m[33m)[m Rename Chapter 2 Mathematics to chapters/chapter2.tex
+[33m51bfe6a[m Merge pull request #17 from mathcal-S/mathcal-S-patch-16
+[33mc51037e[m[33m ([m[1;31morigin/mathcal-S-patch-16[m[33m)[m Rename Chapter 1 Introduction to chapters/chapter1.tex
+[33m11eaf54[m Merge pull request #16 from mathcal-S/mathcal-S-patch-15
+[33m58cf1e8[m[33m ([m[1;31morigin/mathcal-S-patch-15[m[33m)[m Create chapter6.tex
+[33m834cc0b[m Merge pull request #15 from mathcal-S/mathcal-S-patch-14
+[33mba0706c[m[33m ([m[1;31morigin/mathcal-S-patch-14[m[33m)[m Rename speculative extensions to chapters/chapter4.tex
+[33mdca91aa[m Merge pull request #14 from mathcal-S/mathcal-S-patch-13
+[33ma4fd53f[m[33m ([m[1;31morigin/mathcal-S-patch-13[m[33m)[m Rename computational realization to chapters/chapter3.tex
+[33m5916532[m Merge pull request #13 from mathcal-S/mathcal-S-patch-12
+[33m4d236ce[m[33m ([m[1;31morigin/mathcal-S-patch-12[m[33m)[m Update and rename Chapter 5 Conclusion to chapters/chapter5.tex
+[33mebf86db[m Merge pull request #12 from mathcal-S/mathcal-S-patch-11
+[33mfd14fca[m[33m ([m[1;31morigin/mathcal-S-patch-11[m[33m)[m Update and rename Chapter 4 Applications to speculative extensions
+[33m844fc56[m Merge pull request #11 from mathcal-S/mathcal-S-patch-10
+[33meff429c[m[33m ([m[1;31morigin/mathcal-S-patch-10[m[33m)[m Update and rename Chapter 3 Simulations to computational realization
+[33m89782a0[m Merge pull request #10 from mathcal-S/mathcal-S-patch-9
+[33mad4af91[m[33m ([m[1;31morigin/mathcal-S-patch-9[m[33m)[m Update Chapter 2 Mathematics
+[33m0d9c9fb[m Merge pull request #9 from mathcal-S/mathcal-S-patch-8
+[33me3d9d11[m[33m ([m[1;31morigin/mathcal-S-patch-8[m[33m)[m Update Chapter 1 Introduction
+[33me8f7850[m Merge pull request #8 from mathcal-S/mathcal-S-patch-7
+[33m7c64e66[m[33m ([m[1;31morigin/mathcal-S-patch-7[m[33m)[m Update README.md
+[33medac987[m Merge pull request #7 from mathcal-S/mathcal-S-patch-6
+[33mc60efbd[m[33m ([m[1;31morigin/mathcal-S-patch-6[m[33m)[m Create Chapter 1 Introduction
+[33me17b9ab[m Merge pull request #6 from mathcal-S/mathcal-S-patch-5
+[33m2d8fe6f[m[33m ([m[1;31morigin/mathcal-S-patch-5[m[33m)[m Create Chapter 2 Mathematics
+[33mf35862e[m Merge pull request #5 from mathcal-S/mathcal-S-patch-4
+[33mf66c4f7[m[33m ([m[1;31morigin/mathcal-S-patch-4[m[33m)[m Create Chapter 3 Simulations
+[33md631d72[m Merge pull request #4 from mathcal-S/mathcal-S-patch-3
+[33ma4301d4[m[33m ([m[1;31morigin/mathcal-S-patch-3[m[33m)[m Create Chapter 4 Applications
+[33ma21bb04[m Merge pull request #3 from mathcal-S/mathcal-S-patch-2-1
+[33m5169cf3[m[33m ([m[1;31morigin/mathcal-S-patch-2-1[m[33m)[m Create Chapter 5 Conclusion
+[33m7a37ad9[m Merge pull request #2 from mathcal-S/mathcal-S-patch-2
+[33m5cf3ce1[m[33m ([m[1;31morigin/mathcal-S-patch-2[m[33m)[m Create References.bib
+[33m7cbfc0f[m Merge pull request #1 from mathcal-S/mathcal-S-patch-1
+[33m8937edd[m[33m ([m[1;31morigin/mathcal-S-patch-1[m[33m)[m Create Time Travel via Emergent Spacetime Quantum-Coherence Theory: A Theoretical Analysis
+[33md9789e8[m Initial commit
