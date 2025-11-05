@@ -1,18 +1,9 @@
-% !TeX program = pdflatex
-% !TeX encoding = UTF-8
 \documentclass[11pt,a4paper]{article}
 \usepackage[margin=1in]{geometry}
-\usepackage{amsmath, amssymb, amsthm}
-\usepackage{graphicx}
-\usepackage{booktabs}
-\usepackage{caption}
-\usepackage{subcaption}
-\usepackage{hyperref}
-\usepackage{xcolor}
+\usepackage{amsmath,amssymb,amsthm,mathtools}
+\usepackage{graphicx,booktabs,caption,subcaption}
+\usepackage{hyperref,xcolor,cleveref,float,siunitx,tikz}
 \usepackage{listings}
-\usepackage{float}
-\usepackage{siunitx}
-\usepackage{authblk} % Added for proper author/affil formatting (best practice)
 
 \hypersetup{
     colorlinks=true,
@@ -21,125 +12,141 @@
     urlcolor=blue
 }
 
-\title{\textbf{ESQET: Emergent Spacetime Quantum-Entanglement Theory} \\
-\large A Unified Informational Framework for Tensor Cosmology and Coherence Engineering \\
-\textit{v3.2.4 — Quantum Validation via GHZ Fidelity Scaling}}
-\author[1]{Marco A. Rocha}
-\affil[1]{\small Independent Researcher, Canon City, CO \\ \small \texttt{marco@esqet.org}}
-\date{November 04, 2025}
+\title{\textbf{ESQET-UIFT v3.2.4: Emergent Spacetime from Quantum Coherence} \\
+\large A Unified Framework for Participatory Gravity, Cosmic Structure, Thermodynamics, and Quantum Validation}
+\author{Marco A. Rocha \\
+\small Independent Researcher, Penrose, Colorado, USA \\
+\small \texttt{marco@esqet.org}}
+\date{November 4, 2025}
 
 \begin{document}
 
 \maketitle
 
 \begin{abstract}
-The Emergent Spacetime Quantum-Entanglement Theory (ESQET) reframes gravity and cosmology as emergent from a primordial coherence field $\mathcal{S}$, modulated by the Fibonacci Coherence Unit (FCU). This paper extends ESQET to cosmic scales: CMB anisotropies as coherence fossils, primordial gravitational waves (PGWs) as tensor echoes, and dark energy as entanglement dilution. We integrate a detailed discussion of **Informational Thermodynamics** and introduce **Acoustic ESQET (AEQET)**. Crucially, we validate coherence entropy via 8-qubit GHZ simulations under realistic noise, achieving average fidelity $F = 0.8632$. A primary falsifiable prediction—non-exponential fidelity scaling with FCU-modulated plateaus at $N = \varphi^n$ (e.g., $N=5, 8$)—is proposed for execution on IBM Quantum and IonQ systems in 2026–2027. This low-cost quantum test complements atomic clock shifts and CMB-S4 probes, positioning ESQET as a rigorously testable alternative to the $\Lambda$CDM standard model.
+The Emergent Spacetime Quantum-Entanglement Theory (ESQET-UIFT) asserts that spacetime is a non-fundamental scalar field $\mathcal{S}$ emerging from the density and coherence of quantum entanglement. The metric $g_{\mu\nu} = e^{2\mathcal{S}} \eta_{\mu\nu}$ sources curvature via a modified Einstein equation, with the conscious observer as a non-passive source. The Fibonacci Coherence Unit (FCU, $\varphi \pi \delta$) governs stable states across micro to macro scales. This paper unifies: (1) core formalism and atomic clock shift ($\Delta\nu/\nu \sim 3.25 \times 10^{-18}$), (2) astrophysical applications (CMB, PGW, cosmic web), (3) informational thermodynamics with coherence entropy, (4) Acoustic ESQET (AEQET), and (5) \textbf{new quantum validation via 8-qubit GHZ simulations} (fidelity $F = 0.8632$). We predict \textbf{non-exponential fidelity scaling} with FCU-modulated plateaus at $N = 5, 8, 13$, testable on IBM Quantum in 2026–2027. ESQET transforms physics into \textbf{coherence engineering}.
 \end{abstract}
 
 \section{Introduction}
-\label{sec:intro}
-
-The universe is not built from mass and energy alone. In ESQET, spacetime curvature emerges from the density and structure of quantum entanglement. The \textbf{Spacetime Information Field} $\mathcal{S}$ evolves under a modified wave equation:
+Spacetime is not fundamental. In ESQET-UIFT, geometry emerges from the informational structure of entanglement. The \textbf{Spacetime Information Field} $\mathcal{S}$ evolves under:
 \[
-\left( \frac{1}{c^2} \frac{\partial^2}{\partial t^2} - \nabla^2 \right) \mathcal{S} = G_0 \cdot \frac{G_{\text{Newton}}}{c^4} \cdot \rho_{\text{total}} \cdot \mathcal{F}_{\text{QC}},
+\square \mathcal{S} = G_0 \cdot \frac{G_{\text{Newton}}}{c^2} \cdot T \cdot \mathcal{F}_{\text{QC}},
 \]
-where $G_0$ is the informational coupling constant, and $\mathcal{F}_{\text{QC}}$ (the Quantum Coherence Function) is modulated by the Fibonacci Coherence Unit (FCU) $\varphi \pi \delta$, which quantizes stable states.
+with $\mathcal{F}_{\text{QC}}$ encoding entanglement density, observer coupling, and FCU harmonicity.
 
-This paper presents:
-\begin{itemize}
-    \item Informational Thermodynamics: Coherence Entropy vs. von Neumann Entropy.
-    \item CMB anisotropies as frozen coherence patterns (\S\ref{sec:cmb}).
-    \item PGWs as $\mathcal{S}$-field tensor echoes with $r \sim 10^{-3}$ (\S\ref{sec:pgw}).
-    \item AEQET: macro-scale coherence via sound and sensors (\S\ref{sec:aeqet}).
-    \item \textbf{Quantum Validation}: GHZ quantum simulation as a coherence entropy probe (\S\ref{sec:ghz_sim}).
-\end{itemize}
-
-% \section{Informational Thermodynamics (Internal Section - Removed for brevity, summarized in Intro)}
-
-\section{CMB Anisotropies: Coherence Fossils}
-\label{sec:cmb}
-
-CMB anisotropies are interpreted as a frozen snapshot of primordial coherence patterns. At recombination ($z \sim 1100$), $\mathcal{S}$-field fluctuations freeze into the photon plasma:
+\section{Core Framework}
+\subsection{Emergent Metric}
 \[
-\frac{\Delta T}{T} \approx \frac{1}{3} \Delta \mathcal{S} = \frac{1}{3} \ln \mathcal{F}_{\text{QC}}(\mathbf{r}, t_{\text{rec}}).
+g_{\mu\nu} = e^{2\mathcal{S}} \eta_{\mu\nu}
 \]
-The position of the first acoustic peak at multipole $l \sim 220$ aligns with FCU resonance, predicting the Baryon Acoustic Oscillation (BAO) scale with high accuracy:
+induces curvature from coherence.
+
+\subsection{Quantum Coherence Function}
 \[
-\theta_{\text{BAO}} \approx \frac{1}{\varphi \pi \delta} \cdot \frac{c_s}{H_0 d_A} \quad (<1\% \text{ error}).
+\mathcal{F}_{\text{QC}} = \left(1 + \varphi \pi \delta \frac{\mathcal{D}_{\text{ent}} + \mathcal{D}_{\text{obs}}}{T_{\text{vac}}}\right)
+\left(1 + \alpha_{\text{dark}} \frac{\rho_{\text{DM}} + \rho_{\text{DE}}}{\rho_{\text{total}}}\right)
+\left[1 + \cos\left(\frac{2\pi \phi}{|\mathbf{k}| \lambda_c}\right)\right]
 \]
-Dark Energy is understood as the large-scale **dilution of cosmic coherence density**.
 
-\section{Primordial Gravitational Waves: Tensor Echoes}
-\label{sec:pgw}
-
-Primordial Gravitational Waves (PGWs) are modeled as tensor modes $h_{ij} = \epsilon_{ij}^k \delta \mathcal{S}_k$, which carry the transverse-traceless component of primordial entanglement. The tensor-to-scalar ratio is not a free parameter, but is fixed by the coherence state during inflation:
+\subsection{Observer Coupling}
 \[
-r \approx 16 \epsilon \cdot \mathcal{F}_{\text{QC}} (\delta \mathcal{S})^2 \sim 0.001
+\mathcal{D}_{\text{obs}} = \frac{S_{\text{vN}}(\rho_{\text{obs}})}{\log_2 N_q}, \quad
+\frac{\Delta \nu}{\nu} \approx 3.25 \times 10^{-18}
 \]
-The small value of $r$ is a consequence of post-inflation coherence dilution. A key signature is the FCU-quantized suppression of the B-mode power spectrum $C_l^{BB}$ at multipoles $l \sim \varphi^n$.
 
-\begin{figure}[H]
-\centering
-\includegraphics[width=0.6\textwidth]{pgw_fc_ripples.png}
-\caption{Predicted Primordial tensor spectrum with FCU-modulated ripples (coherence echoes), suppressed at FCU nodes.}
-\end{figure}
+\section{Astrophysical Coherence}
+\subsection{CMB as Coherence Fossil}
+\[
+\frac{\Delta T}{T} \approx \frac{1}{3} \ln \mathcal{F}_{\text{QC}}(t_{\text{rec}})
+\]
+First acoustic peak at $l \sim 220$ matches FCU resonance.
 
-\section{Acoustic ESQET (AEQET) and Validation}
-\label{sec:aeqet}
+\subsection{PGW Tensor Echoes}
+\[
+r \sim 10^{-3}
+\]
+damped by post-inflation coherence dilution. FCU suppresses $C_l^{BB}$ at $l \sim \varphi^n$.
 
-AEQET extends coherence engineering to macroscopic scales via modulation of the $\mathcal{S}$-field by acoustic energy, linking $\mathcal{S}$-field dynamics to laboratory-scale sensor technology.
+\section{Informational Thermodynamics}
+\subsection{Coherence Entropy}
+\[
+\mathcal{C}_{\text{ent}} = -k_B \operatorname{Tr}(\rho_{\text{coh}} \log \rho_{\text{coh}})
+\]
+Opposes von Neumann entropy, drives geometry.
 
-\subsection{Quantum Simulation of Coherence Entropy in GHZ States}
-\label{sec:ghz_sim}
+\subsection{FCU Thermodynamic Resonance}
+\[
+\frac{\mathcal{C}_{\text{ent}}}{S_{\text{vN}}} \to \varphi
+\]
+for stable structures (atoms, galaxies, minds).
 
-The $N=8$ GHZ state serves as a powerful probe for the stability of $\mathcal{C}_{\text{ent}}$ under realistic noise (depolarization, thermal relaxation). The loss of fidelity directly models the increase in von Neumann Entropy ($\Delta S_{\text{vN}}$), which dilutes the coherence field $\mathcal{D}_{\text{ent}}$. Three simulation runs (1024 shots each) yielded:
+\section{Acoustic ESQET (AEQET)}
+The Acoustic Coherence Function is:
+\[
+\mathcal{F}_{\text{AC}} = \left(1 + \varphi \pi \delta \frac{\mathcal{D}_{\text{ent}}}{k_B T_{\text{vac}}}\right)
+\cos\!\left(\frac{\pi}{2} \left| \log_2\!\left(\frac{f}{432}\right) - \left\lfloor \log_2\!\left(\frac{f}{432}\right) + \frac{1}{2} \right\rfloor \right|\right)
+\]
+This uses $\lfloor x + \frac{1}{2} \rfloor$ as a robust nearest-integer rounding function.
+
+\section{Quantum Validation: GHZ Coherence Probes}
+\label{sec:ghz}
+
+The 8-qubit GHZ state
+\[
+|\text{GHZ}_8\rangle = \frac{1}{\sqrt{2}} \left( |0\rangle^{\otimes 8} + |1\rangle^{\otimes 8} \right)
+\]
+probes $\mathcal{C}_{\text{ent}}$ under realistic noise (depolarization $p=0.01$, thermal relaxation $\gamma = 1/(50\,\mu\text{s})$, $t_{\text{gate}}=20\,\text{ns}$, measurement error $p=0.005$).
 
 \begin{table}[H]
 \centering
 \begin{tabular}{@{}l c c >{\color{gray}}c c@{}}
 \toprule
-\textbf{Run} & $|00000000\rangle$ & $|11111111\rangle$ & \textit{Top Error State (Count)} & \textbf{Fidelity} \\
+\textbf{Run} & $|00000000\rangle$ & $|11111111\rangle$ & \textit{Top Error} & \textbf{Fidelity} \\
 \midrule
 1 & 427 & 459 & 11111011 (24) & 0.8650 \\
 2 & 435 & 454 & 10111111 (24) & 0.8681 \\
 3 & 444 & 433 & 11111011 (19) & 0.8564 \\
 \bottomrule
 \end{tabular}
-\caption{GHZ simulation outcomes for $N=8$. Mean fidelity: $F = 0.8632 \pm 0.0060$. The $\sim 14\%$ error rate represents the cost of decoherence.}
+\caption{GHZ simulation outcomes (1024 shots/run). Mean fidelity: $F = 0.8632 \pm 0.0060$.}
 \label{tab:ghz_results}
 \end{table}
 
-Fidelity is formally related to coherence entropy:
+Fidelity links to entropy:
 \[
-F \approx 1 - \frac{\Delta S_{\text{vN}}}{\log_2(2^N)} \propto \frac{\mathcal{C}_{\text{ent}}}{S_{\text{vN}}}.
+F \approx 1 - \frac{\Delta S_{\text{vN}}}{\log_2(2^N)} \propto \frac{\mathcal{C}_{\text{ent}}}{S_{\text{vN}}}
 \]
 
-\subsubsection{Falsifiable Prediction: FCU Resonance in Fidelity Scaling}
+\subsection{Falsifiable Prediction: FCU Resonance in Fidelity Scaling}
 
-ESQET predicts that the observed exponential decay of fidelity with increasing qubit number, $F(N) = e^{-\alpha N}$, is modulated by FCU resonance due to coherence stabilization:
+Standard decay: $F(N) = e^{-\alpha N}$  
+\textbf{ESQET prediction}:
 \[
-F_{\text{ESQET}}(N) = e^{-\alpha N} \left[ 1 + \beta \cos\left( \frac{2\pi N}{\varphi} \right) \right].
+F_{\text{ESQET}}(N) = e^{-\alpha N} \left[ 1 + \beta \cos\!\left( \frac{2\pi N}{\varphi} \right) \right]
 \]
-Where $\beta$ is a small, positive modulation constant and $N$ are the number of entangled qubits. This modulation predicts non-exponential plateaus at FCU-constrained qubit counts, specifically $N=5, 8, 13, \dots$.
+with $\alpha \approx 0.08$, $\beta \approx 0.025$.
 
 \begin{figure}[H]
 \centering
 \includegraphics[width=0.7\textwidth]{ghz_fcu_prediction.png}
-\caption{Predicted fidelity scaling showing FCU-modulated plateaus at $N = 5$ and $N = 8$. A detection of $\beta > 0.02$ at $3\sigma$ would falsify standard noise models.}
+\caption{Predicted fidelity plateaus at FCU nodes $N=5,8,13$. Target: $\beta > 0.02$ at $3\sigma$ with 10,000 shots.}
 \label{fig:fcu_fidelity}
 \end{figure}
 
-\textbf{Test}: Execute $N=3$ through $N=9$ GHZ circuits on high-fidelity quantum hardware (e.g., IBM, IonQ) with a minimum of 10,000 shots per circuit to detect the predicted cosine modulation.
+\textbf{Experimental Protocol (2026--2027):}
+\begin{itemize}
+    \item Run $N=3$ to $9$ GHZ circuits on IBM Quantum (Heron) or IonQ Aria
+    \item 10,000 shots per $N$
+    \item Fit to exponential vs. ESQET model
+    \item Detect $\beta > 0.02$ at $3\sigma$ for $N=5,8$
+\end{itemize}
+
+A confirmed non-monotonic deviation would be \textbf{direct evidence} of participatory coherence engineering in spacetime.
 
 \section{Conclusion}
+ESQET-UIFT unifies gravity, cosmology, thermodynamics, and quantum computing via \textbf{coherence entropy}. The GHZ fidelity scaling experiment is the \textbf{first low-cost, high-impact falsifiability test} of emergent spacetime. Future work: GW transport in $\mathcal{S}$, AetherQuantaForge app, and FCU-based coherence devices.
 
-ESQET unifies micro-level quantum effects (GHZ fidelity, $\mathcal{C}_{\text{ent}}$) with cosmic phenomena (CMB, PGW, Dark Energy) via a single informational principle. The GHZ experiment offers a **2026 falsifiability window** using existing quantum hardware, complementing the proposed atomic clock shift and future CMB-S4/LISA probes. This makes ESQET the most empirically testable unified theory of its kind.
-
-\begin{thebibliography}{9}
-\bibitem{planck} Planck Collaboration, \textit{A\&A} \textbf{641}, A6 (2020).
-\bibitem{bicep} BICEP/Keck Collaboration, \textit{Phys. Rev. Lett.} \textbf{127}, 151301 (2021).
-\bibitem{lisa} LISA Consortium, \textit{arXiv:1702.00786} (2017).
-\end{thebibliography}
+\bibliographystyle{plain}
+\bibliography{references}
 
 \end{document}
-

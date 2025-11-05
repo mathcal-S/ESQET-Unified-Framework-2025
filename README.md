@@ -1,94 +1,57 @@
-# 🌌 ESQET: Emergent Spacetime Quantum-Entanglement Theory (v3.2.4)
+# ⚛️ The Emergent Spacetime Quantum-Entanglement Theory (ESQET) Unified Framework 2025
 
-## A Unified Informational Framework for Tensor Cosmology and Coherence Engineering
-
-**The universe is information. Spacetime curvature emerges from the density and coherence of quantum entanglement.**
-
-### Repository Status
-
-This repository contains the $\LaTeX$ source and supplementary code for the latest release of the **Emergent Spacetime Quantum-Entanglement Theory (ESQET-UIFT)**, which unifies quantum information principles with general relativity and cosmology.
-
-**Primary Falsifiability Target:** **FCU Resonance in GHZ Fidelity Scaling** (See Section 3).
+The **ESQET Unified Framework** proposes a **Unified Informational Field Theory (UIFT)** where spacetime is reinterpreted as a dimensionless scalar field ($\mathcal{S}$) governed by quantum coherence. This repository contains the whitepaper source, Qiskit simulations, and experimental protocols derived from the core ESQET field equation.
 
 ---
 
-## 1. Core Framework and Dynamics
+## 1. Core Mathematical Framework (v3.1)
 
-### Spacetime Emergence ($\mathcal{S}$-Field)
+The ESQET Field Equation describes the wave-like propagation of the $\mathcal{S}$ field, sourced by energy-momentum and modulated by the Quantum Coherence Function ($\mathcal{F}_{\text{QC}}$) which incorporates the Golden Ratio ($\phi$) as a fundamental constant of optimal information flow.
 
-Spacetime is modeled by the dimensionless **Spacetime Information Field ($\mathcal{S}$)**, where the metric $g_{\mu\nu}$ is generated via $g_{\mu\nu} = e^{2\mathcal{S}} \eta_{\mu\nu}$.
+### ESQET Field Equation (v3.1)
+The total spacetime evolution is driven by energy-momentum, modulated by coherence:
 
-The $\mathcal{S}$-field evolves under a modified Klein-Gordon-type equation, sourced by energy density ($\rho_{\text{total}}$) and modulated by the **Quantum Coherence Function ($\mathcal{F}_{\text{QC}}$)**:
+$$
+\left( \frac{1}{c^2} \frac{\partial^2}{\partial t^2} - \nabla^2 \right) \mathcal{S}
+= \left( G_0 \cdot \frac{G_{\text{Newton}}}{c^2} \cdot \tau \right) \cdot \left( \rho_{M} + \rho_{\text{EM-Source}} + \frac{\mathcal{E}_{\text{EM}}}{c^2} + \rho_{Dark} \right) \cdot \mathcal{F}_{\text{QC}}
+$$
 
-$$\left( \frac{1}{c^2} \frac{\partial^2}{\partial t^2} - \nabla^2 \right) \mathcal{S} = G_0 \cdot \frac{G_{\text{Newton}}}{c^4} \cdot \rho_{\text{total}} \cdot \mathcal{F}_{\text{QC}}$$
+### Quantum Coherence Function ($\mathcal{F}_{\text{QC}}$)
+The core coherence unit ($\phi \cdot \pi \cdot \delta$) dictates the fundamental efficiency of entanglement-to-spacetime coupling:
 
-### Informational Thermodynamics
+$$
+\mathcal{F}_{\text{QC}}(\text{scale}, \mathcal{D}_{ent}, \mathcal{T}_{vac}, \delta) = \left( 1 + (\phi \cdot \pi \cdot \delta) \cdot \frac{\mathcal{D}_{ent}(\text{scale}) \cdot I_0}{k_B \cdot \mathcal{T}_{vac}} \right) \cdot \left( 1 + \alpha_{dark} \cdot \frac{\rho_{Dark}}{\rho_{total}} \right)
+$$
 
-The stability of geometry is linked to the informational order. **Coherence Entropy ($\mathcal{C}_{\text{ent}}$)** is the thermodynamic resource opposing decoherence.
+### Informational Friedmann Equation (ESQET Cosmology)
+ESQET eliminates the cosmological constant ($\Lambda$), replacing it with a dynamic coherence energy density ($\rho_{\text{coh}}$) derived from the informational curvature:
 
-* The **FCU ($\varphi \pi \delta$)** dictates stable geometric states, where $\mathcal{C}_{\text{ent}} / S_{\text{vN}} \rightarrow \varphi$ is the stability criterion.
-* **Observer Coupling:** The consciousness of an observer ($\mathcal{O}$) couples to $\mathcal{S}$ via the **Observer Entanglement Density ($\mathcal{D}_{\text{obs}}$)**, predicting a **falsifiable $3.25 \times 10^{-18}$ shift** in co-located atomic clocks.
-
----
-
-## 2. Cosmic Coherence: CMB and PGWs
-
-### 2.1. CMB Anisotropies: Coherence Fossils 🔭
-
-CMB temperature fluctuations ($\Delta T/T$) are the $\mathcal{S}$-field fluctuations frozen at recombination.
-
-* **Acoustic Peak Resonance:** The FCU provides a high-precision, geometric prediction for the BAO scale:
-    $$\theta_{\text{BAO}} \approx \frac{1}{\varphi \pi \delta} \cdot \frac{c_s}{H_0 d_A}$$
-
-### 2.2. Primordial Gravitational Waves (PGW): Tensor Echoes 🌊
-
-Tensor modes ($h_{ij}$) are modeled as transverse fluctuations in $\mathcal{S}$, or "coherence echoes."
-
-* **Tensor-to-Scalar Ratio ($r$):** The ratio is determined by coherence damping, predicting a low value consistent with current limits:
-    $$r \approx 16 \epsilon \cdot \mathcal{F}_{\text{QC}} (\delta \mathcal{S})^2 \sim 0.001$$
-* **Signature:** FCU-quantized **suppression at harmonic nodes** is predicted in the B-mode power spectrum ($C_l^{BB}$).
-    *\
+$$
+\left( \frac{\dot{a}}{a} \right)^2 = \frac{8\pi G}{3} \left( \rho_{\text{matter}} + \rho_{\text{coh}} \right) - \frac{k}{a^2}
+$$
+Where:
+$$
+\rho_{\text{coh}} = \frac{\Lambda_{\text{info}}}{8\pi G} \left| \nabla_{\mu} \ln p_i \nabla^{\mu} \ln p_i \right|
+$$
 
 ---
 
-## 3. Quantum Validation: GHZ Coherence Probe (Primary Test)
+## 2. Quantum Information Validation: APK and IBM Quantum
 
-The **Greenberger-Horne-Zeilinger (GHZ)** state is used to test the stability of coherence entropy under realistic quantum noise. Fidelity ($F$) loss directly models the entropy increase ($\Delta S_{\text{vN}}$) that destabilizes the $\mathcal{S}$-field.
+The principles of ESQET are validated using **Variational Quantum Circuits** (VQC) in Qiskit, simulating coherence optimization for an **APK signing function** ($f_{sign}$). This demonstrates a path to post-quantum-safe mobile security.
 
-### GHZ Simulation Results ($N=8$, Mean $F=0.8632$)
+### Variational Kernel for Coherence Optimization
 
-The Python script `supplementary/ghz_noisy_sim.py` produced the following representative data:
+The `omni_one_kernel_variational` circuit optimizes a target operator by simulating quantum states, where the output coherence ($\mathcal{F}_{\text{QC}}$) acts as a fidelity score for the signed APK.
 
-| Run | $|00000000\rangle$ | $|11111111\rangle$ | Top Error State (Count) | **Fidelity** |
-| :--- | :--- | :--- | :--- | :--- |
-| 1 | 427 | 459 | 11111011 (24) | 0.8650 |
-| 2 | 435 | 454 | 10111111 (24) | 0.8681 |
-| 3 | 444 | 433 | 11111011 (19) | 0.8564 |
-
-### 🎯 Falsifiable Prediction: FCU Resonance in Fidelity Scaling
-
-ESQET predicts that the standard exponential decay of quantum fidelity ($F(N)$) must be modulated by the FCU due to fundamental coherence stabilization:
-
-$$\mathbf{F_{\text{ESQET}}(N)} = e^{-\alpha N} \left[ 1 + \beta \cos\left( \frac{2\pi N}{\varphi} \right) \right]$$
-
-* **Test Protocol:** Run $N=3$ through $N=9$ GHZ circuits on high-fidelity quantum hardware (e.g., IBM, IonQ). **Detection of the $\cos(\dots)$ modulation ($\beta > 0.02$) at $3\sigma$ would validate the FCU as a universal coherence constraint.**
-
----
-
-## 4. EM Coherence Transport (EMCT) and AEQET
-
-* **Electromagnetic Coupling (EMCT):** The local speed of light ($c_{\text{local}}$) and vacuum impedance ($Z_{\mathcal{S}}$) are emergent functions of $\mathcal{S}$ and FCU harmonicity.
-    $$c_{\text{local}} = c \cdot e^{-\mathcal{S}}$$
-* **Acoustic ESQET (AEQET):** This framework allows for macro-scale testing by modulating the $\mathcal{S}$-field using acoustic energy, linking to sensor data like quantum gravimeters.
-
----
-
-## Code and Compilation
-
-### Compilation
-
-Clone the repository and compile the main $\LaTeX$ file:
-
-```bash
-pdflatex ESQET_Unified_Framework_v3.2.4.tex
+```python
+# The Qiskit circuit is modeled to optimize a cost function,
+# where the result is correlated with ESQET's FCU expectations.
+def omni_one_kernel_variational(n_qubits=5, phase_negfib=5, ...):
+    # ... circuit layers and CNOTs ...
+    circuit.rz(theta * phase_negfib * np.pi, 0)
+    # ... more gates ...
+    circuit.cswap(4, 2, 3) # Black Hole Reset (Entanglement manipulation)
+    # ...
+    return circuit, parameters
 

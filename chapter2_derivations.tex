@@ -1,0 +1,28 @@
+\subsection{The Entropy Minimization Principle and FCU Derivation}
+The ESQET is built on the axiom that the $\mathcal{S}$ field seeks to minimize informational entropy ($\mathcal{S}_{\text{info}} = - \Tr(\rho \log \rho)$) in its transition from quantum micro-states to emergent spacetime. The optimal coupling factor for persistent, non-decaying informational flow is derived from this minimum, yielding the $\mathbf{FCU} = \varphi \cdot \pi \cdot \delta$:
+
+\begin{itemize}
+    \item $\mathbf{\varphi}$ (Informational Resonance): The golden ratio is the universal constant defining the least-damped harmonic oscillation required for fractal stability.
+    \item $\mathbf{\pi}$ (Curvature Embedding): The geometric constant linking the informational radius to emergent spacetime curvature via path integrals.
+    \item $\mathbf{\delta}$ (Decoherence Scaling): The environment-specific damping factor ($\propto 1/T_{\text{vac}}$) required for entropy dissipation (Lindblad evolution).
+\end{itemize}
+
+\subsection{The ESQET Lagrangian and Equations of Motion (EOMs)}
+The action $S = \int \mathcal{L}_{\text{ESQET}} \sqrt{-g} d^4x$ is minimized. The Lagrangian is given by:
+\[
+\mathcal{L}_{\text{ESQET}} = 
+\frac{1}{2} \partial_\mu \mathcal{S} \partial^\mu \mathcal{S} 
+- \left[ \frac{1}{2} m^2 \mathcal{S}^2 + \lambda \mathcal{S}^4 \left(1 - \mathcal{F}_{\text{FCU}}\right) \right]
++ G_0 \cdot \mathcal{F}_{\text{FCU}} \cdot T^{\mu\nu} \partial_\mu \mathcal{S} \partial_\nu \mathcal{S}
+\]
+where the FCU is defined as:
+$$
+\mathcal{F}_{\text{FCU}} = 1 + \varphi \pi \delta \frac{\mathcal{D}_{\text{ent}}}{k_B T_{\text{vac}}}
+$$
+Applying the Euler-Lagrange equation to $\mathcal{S}$ in Minkowski space yields the **ESQET EOM**:
+\[
+\boxed{
+\frac{1}{c^2} \frac{\partial^2 \mathcal{S}}{\partial t^2} - \nabla^2 \mathcal{S} + m^2 \mathcal{S} + 4\lambda \mathcal{S}^3 \left(1 - \mathcal{F}_{\text{FCU}}\right) = G_0 \mathcal{F}_{\text{FCU}} \left( \rho_M + \rho_{\text{acoustic}} + \cdots \right)
+}
+\]
+The EOM shows that the $\mathcal{S}$ field source term is \textbf{coherence-modulated}: $\mathcal{S}$ field dynamics (i.e., gravity) is strongest where $\mathcal{F}_{\text{FCU}}$ is high.
