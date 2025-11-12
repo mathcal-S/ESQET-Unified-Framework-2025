@@ -1,0 +1,40 @@
+name: Build Dissertation PDF
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build-latex:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v5
+
+    - name: Install TeX Live packages
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y texlive-latex-extra texlive-fonts-recommended texlive-fonts-extra texlive-bibtex-extra biber
+
+    - name: Compile LaTeX (1st pass)
+      run: pdflatex -interaction=nonstopmode main.tex
+
+    - name: Run BibTeX
+      run: bibtex main
+
+    - name: Compile LaTeX (2nd pass)
+      run: pdflatex -interaction=nonstopmode main.tex
+
+    - name: Compile LaTeX (3rd pass)
+      run: pdflatex -interaction=nonstopmode main.tex
+
+    - name: Upload compiled PDF artifact
+      uses: actions/upload-artifact@v3
+      with:
+        name: ESQET-dissertation-pdf
+        path: main.pdf
